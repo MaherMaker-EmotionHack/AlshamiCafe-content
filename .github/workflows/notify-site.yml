@@ -1,0 +1,22 @@
+name: Notify Site Repository
+
+on:
+  push:
+    branches: [main]
+
+jobs:
+  notify:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Request site rebuild
+        env:
+          SITE_REPOSITORY: ${{ vars.SITE_REPOSITORY }}
+          DISPATCH_TOKEN: ${{ secrets.SITE_REPOSITORY_DISPATCH_TOKEN }}
+        run: |
+          test -n "$SITE_REPOSITORY"
+          test -n "$DISPATCH_TOKEN"
+          curl --fail-with-body --request POST \
+            --header 'Accept: application/vnd.github+json' \
+            --header "Authorization: Bearer $DISPATCH_TOKEN" \
+            --url "https://api.github.com/repos/$SITE_REPOSITORY/dispatches" \
+            --data '{"event_type":"content-update"}'

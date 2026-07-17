@@ -1,0 +1,47 @@
+nav:
+  home: "الرئيسية"
+  menu: "القائمة"
+  gallery: "معرض الصور"
+  events: "الفعاليات"
+  about: "من نحن"
+  contact: "اتصل بنا"
+cta:
+  reserve: "احجز"
+  button_text: "احجز الآن"
+  heading: "احجز طاولة"
+  reservation_message: "مرحباً، أود حجز طاولة."
+footer:
+  hours: "ساعات العمل"
+  follow: "تابعنا"
+  copyright: "جميع الحقوق محفوظة."
+home:
+  welcome: "أهلاً وسهلاً"
+opening_hours:
+  heading: "ساعات العمل"
+  closed: "مغلق"
+  days:
+    monday: "الاثنين"
+    tuesday: "الثلاثاء"
+    wednesday: "الأربعاء"
+    thursday: "الخميس"
+    friday: "الجمعة"
+    saturday: "السبت"
+    sunday: "الأحد"
+gallery:
+  photos: "صور"
+  back: "العودة إلى المعارض"
+  close: "إغلاق عارض الصور"
+  previous: "الصورة السابقة"
+  next: "الصورة التالية"
+  not_found: "المعرض غير موجود."
+events:
+  date: "التاريخ"
+  upcoming: "الفعاليات القادمة"
+  past: "الفعاليات السابقة"
+  related: "فعاليات أخرى"
+  back: "العودة إلى الفعاليات"
+  empty: "لا توجد فعاليات مجدولة حالياً."
+  not_found: "الفعالية غير موجودة."
+menu:
+  filter_all: "الكل"
+  filter_label: "تصفية حسب النظام الغذائي"

@@ -1,0 +1,47 @@
+nav:
+  home: "Startseite"
+  menu: "Speisekarte"
+  gallery: "Galerie"
+  events: "Veranstaltungen"
+  about: "Über uns"
+  contact: "Kontakt"
+cta:
+  reserve: "Reservieren"
+  button_text: "Jetzt reservieren"
+  heading: "Tisch reservieren"
+  reservation_message: "Hallo, ich möchte gerne einen Tisch reservieren."
+footer:
+  hours: "Öffnungszeiten"
+  follow: "Folgen Sie uns"
+  copyright: "Alle Rechte vorbehalten."
+home:
+  welcome: "Willkommen"
+opening_hours:
+  heading: "Öffnungszeiten"
+  closed: "Geschlossen"
+  days:
+    monday: "Montag"
+    tuesday: "Dienstag"
+    wednesday: "Mittwoch"
+    thursday: "Donnerstag"
+    friday: "Freitag"
+    saturday: "Samstag"
+    sunday: "Sonntag"
+gallery:
+  photos: "Fotos"
+  back: "Zurück zu den Galerien"
+  close: "Lightbox schließen"
+  previous: "Vorheriges Foto"
+  next: "Nächstes Foto"
+  not_found: "Galerie nicht gefunden."
+events:
+  date: "Datum"
+  upcoming: "Kommende Veranstaltungen"
+  past: "Vergangene Veranstaltungen"
+  related: "Weitere Veranstaltungen"
+  back: "Zurück zu den Veranstaltungen"
+  empty: "Derzeit sind keine Veranstaltungen geplant."
+  not_found: "Veranstaltung nicht gefunden."
+menu:
+  filter_all: "Alle"
+  filter_label: "Nach Ernährungsweise filtern"

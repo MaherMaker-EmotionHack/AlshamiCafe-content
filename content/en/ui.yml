@@ -1,0 +1,47 @@
+nav:
+  home: "Home"
+  menu: "Menu"
+  gallery: "Gallery"
+  events: "Events"
+  about: "About"
+  contact: "Contact"
+cta:
+  reserve: "Reserve"
+  button_text: "Reserve now"
+  heading: "Book a table"
+  reservation_message: "Hello, I would like to reserve a table."
+footer:
+  hours: "Opening hours"
+  follow: "Follow us"
+  copyright: "All rights reserved."
+home:
+  welcome: "Welcome"
+opening_hours:
+  heading: "Opening hours"
+  closed: "Closed"
+  days:
+    monday: "Monday"
+    tuesday: "Tuesday"
+    wednesday: "Wednesday"
+    thursday: "Thursday"
+    friday: "Friday"
+    saturday: "Saturday"
+    sunday: "Sunday"
+gallery:
+  photos: "photos"
+  back: "Back to galleries"
+  close: "Close lightbox"
+  previous: "Previous photo"
+  next: "Next photo"
+  not_found: "Gallery not found."
+events:
+  date: "Date"
+  upcoming: "Upcoming events"
+  past: "Past events"
+  related: "More events"
+  back: "Back to events"
+  empty: "There are no events scheduled right now."
+  not_found: "Event not found."
+menu:
+  filter_all: "All"
+  filter_label: "Filter by dietary preference"

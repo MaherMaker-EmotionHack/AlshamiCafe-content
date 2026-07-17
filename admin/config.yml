@@ -1,0 +1,204 @@
+backend:
+  name: github
+  repo: REPLACE_WITH_OWNER/REPLACE_WITH_CONTENT_REPOSITORY
+  branch: main
+  base_url: https://REPLACE_WITH_WORKER.workers.dev
+  auth_endpoint: auth
+
+local_backend: true
+media_folder: public/uploads
+public_folder: /uploads
+
+collections:
+  - name: de-pages
+    label: Seiten (Deutsch)
+    folder: content/de/pages
+    create: false
+    slug: '{{slug}}'
+    fields: &page_fields
+      - { name: title, label: Title, widget: string }
+      - { name: hero_headline, label: Hero headline, widget: string }
+      - { name: hero_subtitle, label: Hero subtitle, widget: string, required: false }
+      - { name: hero_image, label: Hero image, widget: image, required: false }
+      - label: SEO
+        name: seo
+        widget: object
+        fields:
+          - { name: meta_title, label: Meta title, widget: string }
+          - { name: meta_description, label: Meta description, widget: text }
+      - { name: body, label: Content, widget: markdown }
+
+  - name: de-menu-categories
+    label: Menukategorien (Deutsch)
+    folder: content/de/menu-categories
+    create: true
+    slug: '{{slug}}'
+    fields: &menu_category_fields
+      - { name: name, label: Name, widget: string }
+      - { name: slug, label: Slug, widget: string }
+      - { name: description, label: Description, widget: text }
+      - { name: image, label: Image, widget: image, required: false }
+      - { name: order, label: Order, widget: number, value_type: int, min: 0 }
+      - { name: body, label: Content, widget: markdown, required: false }
+
+  - name: de-menu-items
+    label: Menu items (Deutsch)
+    folder: content/de/menu-items
+    create: true
+    slug: '{{slug}}'
+    fields: &menu_item_fields
+      - { name: name, label: Name, widget: string }
+      - { name: slug, label: Slug, widget: string }
+      - { name: category, label: Category slug, widget: string }
+      - { name: price, label: Price, widget: number, value_type: float, min: 0 }
+      - { name: description, label: Description, widget: text }
+      - { name: image, label: Image, widget: image, required: false }
+      - { name: dietary_tags, label: Dietary tags, widget: list, required: false }
+      - { name: featured, label: Featured, widget: boolean, default: false }
+      - { name: order, label: Order, widget: number, value_type: int, min: 0 }
+      - { name: body, label: Content, widget: markdown, required: false }
+
+  - name: de-galleries
+    label: Galerien (Deutsch)
+    folder: content/de/galleries
+    create: true
+    slug: '{{slug}}'
+    fields: &gallery_fields
+      - { name: title, label: Title, widget: string }
+      - { name: slug, label: Slug, widget: string }
+      - { name: cover_image, label: Cover image, widget: image }
+      - { name: images, label: Images, widget: list, field: { name: image, label: Image, widget: image } }
+      - { name: order, label: Order, widget: number, value_type: int, min: 0 }
+      - { name: body, label: Content, widget: markdown, required: false }
+
+  - name: de-events
+    label: Veranstaltungen (Deutsch)
+    folder: content/de/events
+    create: true
+    slug: '{{slug}}'
+    fields: &event_fields
+      - { name: title, label: Title, widget: string }
+      - { name: slug, label: Slug, widget: string }
+      - { name: date, label: Date, widget: date, format: 'YYYY-MM-DD' }
+      - { name: time, label: Time, widget: string, required: false }
+      - { name: description, label: Description, widget: text }
+      - { name: image, label: Image, widget: image, required: false }
+      - { name: order, label: Order, widget: number, value_type: int, min: 0 }
+      - { name: body, label: Content, widget: markdown, required: false }
+
+  - name: ar-pages
+    label: الصفحات (العربية)
+    folder: content/ar/pages
+    create: false
+    slug: '{{slug}}'
+    fields: *page_fields
+
+  - name: ar-menu-categories
+    label: فئات القائمة (العربية)
+    folder: content/ar/menu-categories
+    create: true
+    slug: '{{slug}}'
+    fields: *menu_category_fields
+
+  - name: ar-menu-items
+    label: عناصر القائمة (العربية)
+    folder: content/ar/menu-items
+    create: true
+    slug: '{{slug}}'
+    fields: *menu_item_fields
+
+  - name: ar-galleries
+    label: المعارض (العربية)
+    folder: content/ar/galleries
+    create: true
+    slug: '{{slug}}'
+    fields: *gallery_fields
+
+  - name: ar-events
+    label: الفعاليات (العربية)
+    folder: content/ar/events
+    create: true
+    slug: '{{slug}}'
+    fields: *event_fields
+
+  - name: en-pages
+    label: Pages (English)
+    folder: content/en/pages
+    create: false
+    slug: '{{slug}}'
+    fields: *page_fields
+
+  - name: en-menu-categories
+    label: Menu categories (English)
+    folder: content/en/menu-categories
+    create: true
+    slug: '{{slug}}'
+    fields: *menu_category_fields
+
+  - name: en-menu-items
+    label: Menu items (English)
+    folder: content/en/menu-items
+    create: true
+    slug: '{{slug}}'
+    fields: *menu_item_fields
+
+  - name: en-galleries
+    label: Galleries (English)
+    folder: content/en/galleries
+    create: true
+    slug: '{{slug}}'
+    fields: *gallery_fields
+
+  - name: en-events
+    label: Events (English)
+    folder: content/en/events
+    create: true
+    slug: '{{slug}}'
+    fields: *event_fields
+
+  - name: settings
+    label: Site settings
+    files:
+      - name: general
+        label: General settings
+        file: content/settings/general.yml
+        fields:
+          - { name: restaurant_name, label: Establishment name, widget: string }
+          - { name: default_language, label: Default language, widget: select, options: [de], hint: German is the unprefixed language supported by this template }
+          - { name: site_url, label: Public site URL, widget: string, hint: Include the final domain and any deployment subpath }
+          - { name: tagline, label: Tagline, widget: string }
+          - { name: email, label: Email, widget: string }
+          - { name: phone, label: Phone, widget: string }
+          - { name: whatsapp_number, label: WhatsApp number, widget: string }
+          - label: Address
+            name: address
+            widget: object
+            fields:
+              - { name: street, label: Street, widget: string }
+              - { name: postal_code, label: Postal code, widget: string }
+              - { name: city, label: City, widget: string }
+              - { name: country, label: Country, widget: string }
+          - label: Social links
+            name: social
+            widget: object
+            fields:
+              - { name: instagram, label: Instagram, widget: string, required: false }
+              - { name: facebook, label: Facebook, widget: string, required: false }
+              - { name: tripadvisor, label: TripAdvisor, widget: string, required: false }
+          - name: opening_hours
+            label: Opening hours
+            widget: list
+            fields:
+              - { name: day, label: Day key, widget: string }
+              - { name: open, label: Open, widget: string, required: false }
+              - { name: close, label: Close, widget: string, required: false }
+              - { name: closed, label: Closed, widget: boolean, required: false, default: false }
+          - { name: map_embed_url, label: Map embed URL, widget: string, required: false }
+          - label: CTA
+            name: cta
+            widget: object
+            fields:
+              - { name: button_link, label: Button link, widget: string }
+              - { name: type, label: CTA type, widget: select, options: [whatsapp, internal, external, maps] }
+          - { name: cuisine, label: Cuisine, widget: string }
+          - { name: price_range, label: Price range, widget: string }

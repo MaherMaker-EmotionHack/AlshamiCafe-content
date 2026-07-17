@@ -1,0 +1,37 @@
+restaurant_name: "Your Venue"
+default_language: "de"
+site_url: "https://example.com"
+tagline: "Replace this starter text"
+email: ""
+phone: ""
+whatsapp_number: ""
+address:
+  street: ""
+  postal_code: ""
+  city: ""
+  country: ""
+social:
+  instagram: ""
+  facebook: ""
+  tripadvisor: ""
+opening_hours:
+  - day: "monday"
+    closed: true
+  - day: "tuesday"
+    closed: true
+  - day: "wednesday"
+    closed: true
+  - day: "thursday"
+    closed: true
+  - day: "friday"
+    closed: true
+  - day: "saturday"
+    closed: true
+  - day: "sunday"
+    closed: true
+map_embed_url: ""
+cta:
+  button_link: "/contact"
+  type: "internal"
+cuisine: ""
+price_range: ""
