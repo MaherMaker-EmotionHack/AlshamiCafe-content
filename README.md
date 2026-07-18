@@ -25,9 +25,17 @@ second terminal run `npm run cms`, then open `http://localhost:4200/admin/`.
 
 ## Enable CMS sign-in
 
-After the **Deploy Decap OAuth Worker** workflow in the site repository
-succeeds, replace `REPLACE_WITH_WORKER` in `admin/config.yml` with the deployed
-Worker URL. Do not add GitHub OAuth values to this repository.
+The CMS uses the Alshami Cloudflare OAuth Worker:
+
+```text
+https://alshami-cafe-content-oauth.maher-serawan-1998.workers.dev
+```
+
+Its OAuth credentials are added directly with Wrangler from the paired site
+repository, following the Mettaroll deployment approach. The exact setup and
+deploy commands are in
+`AlshamiCafe/restaurant/tools/decap-oauth-proxy/README.md`. Do not add GitHub
+OAuth values to this repository.
 
 ## Writer access and deployment token
 

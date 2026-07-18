@@ -2,9 +2,8 @@ backend:
   name: github
   repo: MaherMaker-EmotionHack/AlshamiCafe-content
   branch: main
-  # Replace after the Deploy Decap OAuth Worker workflow reports its workers.dev URL.
-  base_url: https://REPLACE_WITH_WORKER.workers.dev
-  auth_endpoint: auth
+  base_url: https://alshami-cafe-content-oauth.maher-serawan-1998.workers.dev
+  auth_endpoint: /auth
 
 local_backend: true
 media_folder: public/uploads
