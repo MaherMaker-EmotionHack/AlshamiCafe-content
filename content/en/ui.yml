@@ -6,9 +6,9 @@ nav:
   about: "About"
   contact: "Contact"
 cta:
-  reserve: "Reserve"
-  button_text: "Reserve now"
-  heading: "Book a table"
+  reserve: "WhatsApp"
+  button_text: "Get in touch"
+  heading: "Questions or reservations?"
   reservation_message: "Hello, I would like to reserve a table."
 footer:
   hours: "Opening hours"

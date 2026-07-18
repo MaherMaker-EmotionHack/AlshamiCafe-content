@@ -1,0 +1,11 @@
+---
+name: "Crêpe Pistazien"
+slug: "crepe-pistazien"
+category: "crepes"
+price: 8
+description: "Crêpe mit Pistazien."
+image: "/uploads/alshami/c812fd20-8d30-49de-a067-0940235cf11f.jpeg"
+dietary_tags: []
+featured: false
+order: 60
+---

@@ -6,9 +6,9 @@ nav:
   about: "Über uns"
   contact: "Kontakt"
 cta:
-  reserve: "Reservieren"
-  button_text: "Jetzt reservieren"
-  heading: "Tisch reservieren"
+  reserve: "WhatsApp"
+  button_text: "Kontakt aufnehmen"
+  heading: "Fragen oder reservieren?"
   reservation_message: "Hallo, ich möchte gerne einen Tisch reservieren."
 footer:
   hours: "Öffnungszeiten"

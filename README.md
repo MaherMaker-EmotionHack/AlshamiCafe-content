@@ -1,12 +1,8 @@
-# Restaurant/Cafe Content Template
+# Alshami Cafe Content
 
-This repository owns one venue's editable material: `content/`, uploaded media
-in `public/uploads/`, and the Decap CMS in `admin/`. It intentionally contains
-no Angular application code.
-
-It is a **public** template: do not commit credentials, private customer data,
-or production OAuth values. Replace every `REPLACE_WITH_...` configuration
-placeholder before enabling the CMS for a venue.
+This public repository owns Alshami Cafe's editable pages, menu, image uploads,
+and Decap CMS configuration. The paired private site repository is
+`MaherMaker-EmotionHack/AlshamiCafe`.
 
 The paired site repository fetches this repository when developing and building.
 Every push to `main` notifies the site repository to rebuild.
@@ -19,12 +15,19 @@ second terminal run `npm run cms`, then open `http://localhost:4200/admin/`.
 
 ## Required GitHub configuration
 
-1. In this repository, set the `SITE_REPOSITORY` repository variable to the
-   paired `owner/repository` name.
+1. In this repository, set `SITE_REPOSITORY` to
+   `MaherMaker-EmotionHack/AlshamiCafe`.
 2. Add `SITE_REPOSITORY_DISPATCH_TOKEN`, a fine-grained token permitted to
    dispatch workflows in that site repository.
-3. In the site repository, set `CONTENT_REPOSITORY`. This repository is public,
-   so the site can clone it without a checkout token.
+3. In the site repository, set `CONTENT_REPOSITORY` to
+   `MaherMaker-EmotionHack/AlshamiCafe-content`. This repository is public, so
+   the site can clone it without a checkout token.
+
+## Enable CMS sign-in
+
+After the **Deploy Decap OAuth Worker** workflow in the site repository
+succeeds, replace `REPLACE_WITH_WORKER` in `admin/config.yml` with the deployed
+Worker URL. Do not add GitHub OAuth values to this repository.
 
 ## Writer access and deployment token
 

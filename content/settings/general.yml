@@ -1,37 +1,44 @@
-restaurant_name: "Your Venue"
+restaurant_name: "Alshami Café"
 default_language: "de"
-site_url: "https://example.com"
-tagline: "Replace this starter text"
+# Add the final public domain before the first production deployment.
+site_url: ""
+tagline: "Früchte, Cocktails, Waffeln, Crêpes und Eis in Heilbronn"
 email: ""
-phone: ""
-whatsapp_number: ""
+phone: "+49 176 23634049"
+whatsapp_number: "4917623634049"
 address:
-  street: ""
-  postal_code: ""
-  city: ""
-  country: ""
+  street: "Happelstraße 1"
+  postal_code: "74074"
+  city: "Heilbronn"
+  country: "Deutschland"
 social:
-  instagram: ""
+  instagram: "https://www.instagram.com/alshamii_333/"
   facebook: ""
   tripadvisor: ""
 opening_hours:
   - day: "monday"
     closed: true
   - day: "tuesday"
-    closed: true
+    open: "14:00"
+    close: "23:00"
   - day: "wednesday"
-    closed: true
+    open: "14:00"
+    close: "23:00"
   - day: "thursday"
-    closed: true
+    open: "14:00"
+    close: "23:00"
   - day: "friday"
-    closed: true
+    open: "14:00"
+    close: "00:00"
   - day: "saturday"
-    closed: true
+    open: "14:00"
+    close: "00:00"
   - day: "sunday"
-    closed: true
-map_embed_url: ""
+    open: "14:00"
+    close: "00:00"
+map_embed_url: "https://www.google.com/maps?q=Happelstra%C3%9Fe+1%2C+74074+Heilbronn&output=embed"
 cta:
-  button_link: "/contact"
-  type: "internal"
-cuisine: ""
-price_range: ""
+  button_link: "4917623634049"
+  type: "whatsapp"
+cuisine: "Dessert Café, Smoothiebar & Shisha"
+price_range: "€€"

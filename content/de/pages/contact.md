@@ -1,13 +1,11 @@
 ---
 title: "Kontakt"
-hero_headline: "Besuchen Sie Ihr Lokal"
-hero_subtitle: "Fügen Sie Adresse, Öffnungszeiten und Kontaktdaten hinzu."
-hero_image: ""
+hero_headline: "Besuche uns in Heilbronn"
+hero_subtitle: "Wir freuen uns auf dich in der Happelstraße 1."
+hero_image: "/uploads/alshami/54afa9bb-15f7-4036-bd74-3476e1cc6c34.jpeg"
 seo:
-  meta_title: "Kontakt | Ihr Lokal"
-  meta_description: "Kontaktieren Sie Ihr Lokal."
+  meta_title: "Kontakt | Alshami Café Heilbronn"
+  meta_description: "Kontaktiere oder besuche Alshami Café, Happelstraße 1, 74074 Heilbronn."
 ---
 
-## Kontakt aufnehmen
-
-Fügen Sie Anfahrt, Öffnungszeiten und Kontaktdaten in den Website-Einstellungen hinzu.
+Du erreichst uns telefonisch oder per WhatsApp. Besuche uns in der Happelstraße 1 in Heilbronn.

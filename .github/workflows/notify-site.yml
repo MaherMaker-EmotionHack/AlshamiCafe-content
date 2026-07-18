@@ -4,6 +4,9 @@ on:
   push:
     branches: [main]
 
+permissions:
+  contents: read
+
 jobs:
   notify:
     runs-on: ubuntu-latest
@@ -13,8 +16,10 @@ jobs:
           SITE_REPOSITORY: ${{ vars.SITE_REPOSITORY }}
           DISPATCH_TOKEN: ${{ secrets.SITE_REPOSITORY_DISPATCH_TOKEN }}
         run: |
-          test -n "$SITE_REPOSITORY"
-          test -n "$DISPATCH_TOKEN"
+          if [ -z "$SITE_REPOSITORY" ] || [ -z "$DISPATCH_TOKEN" ]; then
+            echo "::error::Set SITE_REPOSITORY and SITE_REPOSITORY_DISPATCH_TOKEN before publishing content."
+            exit 1
+          fi
           curl --fail-with-body --request POST \
             --header 'Accept: application/vnd.github+json' \
             --header "Authorization: Bearer $DISPATCH_TOKEN" \
