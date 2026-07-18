@@ -1,7 +1,7 @@
 restaurant_name: "Alshami Café"
 default_language: "de"
-# Add the final public domain before the first production deployment.
-site_url: ""
+# GitHub Pages project site: https://mahermaker.me/<repository-name>
+site_url: "https://mahermaker.me/AlshamiCafe"
 tagline: "Früchte, Cocktails, Waffeln, Crêpes und Eis in Heilbronn"
 email: ""
 phone: "+49 176 23634049"
