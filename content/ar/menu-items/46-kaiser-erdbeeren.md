@@ -1,5 +1,5 @@
 ---
-name: "كايزر فراولة"
+name: "قيصر فراولة"
 slug: "kaiser-erdbeeren"
 category: "kaiser"
 price: 14

@@ -1,5 +1,5 @@
 ---
-name: "كايزر مميز"
+name: "قيصر مميز"
 slug: "kaiser-spezial"
 category: "kaiser"
 price: 15

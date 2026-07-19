@@ -1,5 +1,5 @@
 ---
-name: "كايزر الشامي"
+name: "قيصر الشامي"
 slug: "kaiser-alshami"
 category: "kaiser"
 price: 15

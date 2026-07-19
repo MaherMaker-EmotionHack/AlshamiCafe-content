@@ -1,5 +1,5 @@
 ---
-name: "كايزر أفوكادو"
+name: "قيصر أفوكادو"
 slug: "kaiser-avocado"
 category: "kaiser"
 price: 15

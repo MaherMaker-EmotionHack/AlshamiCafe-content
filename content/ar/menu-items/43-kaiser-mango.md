@@ -1,5 +1,5 @@
 ---
-name: "كايزر مانجو"
+name: "قيصر مانجو"
 slug: "kaiser-mango"
 category: "kaiser"
 price: 14

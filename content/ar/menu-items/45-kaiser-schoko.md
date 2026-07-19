@@ -1,5 +1,5 @@
 ---
-name: "كايزر شوكولاتة"
+name: "قيصر شوكولاتة"
 slug: "kaiser-schoko"
 category: "kaiser"
 price: 14

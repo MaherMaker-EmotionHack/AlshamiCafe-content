@@ -1,5 +1,5 @@
 ---
-name: "كايزر موز"
+name: "قيصر موز"
 slug: "kaiser-banane"
 category: "kaiser"
 price: 14
