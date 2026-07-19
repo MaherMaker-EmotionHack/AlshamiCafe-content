@@ -1,9 +1,9 @@
 ---
-name: "Obst Salat KitKat"
+name: "سلطة فواكه كيت كات"
 slug: "obst-salat-kitkat"
 category: "obstsalate"
 price: 14
-description: "Gemischte Früchte, Sahne, arabische Sahne, KitKat, Nestlé, Nutella und Honig."
+description: "فواكه مشكلة، كريمة، قشطة عربية، كيت كات، نستله، نوتيلا وعسل."
 image: "/uploads/alshami/26b86b36-69a5-43da-b23d-4c03f6ed727e.jpeg"
 dietary_tags: []
 featured: false

@@ -1,9 +1,9 @@
 ---
-name: "Kaffee"
+name: "Coffee"
 slug: "kaffee"
 category: "heissgetraenke"
 price: 3
-description: "Frisch zubereiteter Kaffee."
+description: "Freshly prepared coffee."
 image: "/uploads/alshami/c8b651a1-5457-48b8-a598-67bb46809981.jpeg"
 dietary_tags: []
 featured: false

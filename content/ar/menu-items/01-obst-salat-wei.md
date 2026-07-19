@@ -1,9 +1,9 @@
 ---
-name: "Obst Salat Weiß"
+name: "سلطة فواكه بالشوكولاتة البيضاء"
 slug: "obst-salat-wei"
 category: "obstsalate"
 price: 14
-description: "Gemischte Früchte, Sahne, arabische Sahne, Nestlé, weiße Schokolade und Honig."
+description: "فواكه مشكلة، كريمة، قشطة عربية، نستله، شوكولاتة بيضاء وعسل."
 image: "/uploads/alshami/26b86b36-69a5-43da-b23d-4c03f6ed727e.jpeg"
 dietary_tags: []
 featured: true

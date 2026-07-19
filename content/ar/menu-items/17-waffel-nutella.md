@@ -1,9 +1,9 @@
 ---
-name: "Waffel Nutella"
+name: "وافل نوتيلا"
 slug: "waffel-nutella"
 category: "waffeln"
 price: 7
-description: "Warme Waffel mit Nutella."
+description: "وافل دافئ مع نوتيلا."
 image: "/uploads/alshami/8c82eca1-b9c4-4512-940c-7321520e5616.jpeg"
 dietary_tags: []
 featured: false

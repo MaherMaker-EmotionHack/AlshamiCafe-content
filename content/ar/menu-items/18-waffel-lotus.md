@@ -1,9 +1,9 @@
 ---
-name: "Waffel Lotus"
+name: "وافل لوتس"
 slug: "waffel-lotus"
 category: "waffeln"
 price: 7
-description: "Warme Waffel mit Lotus."
+description: "وافل دافئ مع لوتس."
 image: "/uploads/alshami/8c82eca1-b9c4-4512-940c-7321520e5616.jpeg"
 dietary_tags: []
 featured: false

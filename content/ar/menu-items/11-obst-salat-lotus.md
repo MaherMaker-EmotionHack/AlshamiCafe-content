@@ -1,9 +1,9 @@
 ---
-name: "Obst Salat Lotus"
+name: "سلطة فواكه لوتس"
 slug: "obst-salat-lotus"
 category: "obstsalate"
 price: 14
-description: "Gemischte Früchte, Sahne, arabische Sahne, Lotus, Nestlé, Nutella und Honig."
+description: "فواكه مشكلة، كريمة، قشطة عربية، لوتس، نستله، نوتيلا وعسل."
 image: "/uploads/alshami/26b86b36-69a5-43da-b23d-4c03f6ed727e.jpeg"
 dietary_tags: []
 featured: false
