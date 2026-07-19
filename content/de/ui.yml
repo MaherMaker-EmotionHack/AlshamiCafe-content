@@ -45,3 +45,10 @@ events:
 menu:
   filter_all: "Alle"
   filter_label: "Nach Ernährungsweise filtern"
+  dietary_tags:
+    diet: "Diätgeeignet"
+    vegetarian: "Vegetarisch"
+    vegan: "Vegan"
+    gluten-free: "Glutenfrei"
+    lactose-free: "Laktosefrei"
+    halal: "Halal"

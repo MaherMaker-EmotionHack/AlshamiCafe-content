@@ -45,3 +45,10 @@ events:
 menu:
   filter_all: "الكل"
   filter_label: "تصفية حسب النظام الغذائي"
+  dietary_tags:
+    diet: "مناسب للحمية"
+    vegetarian: "نباتي"
+    vegan: "نباتي صرف"
+    gluten-free: "خالٍ من الغلوتين"
+    lactose-free: "خالٍ من اللاكتوز"
+    halal: "حلال"

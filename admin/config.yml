@@ -53,7 +53,19 @@ collections:
       - { name: price, label: Price, widget: number, value_type: float, min: 0 }
       - { name: description, label: Description, widget: text }
       - { name: image, label: Image, widget: image, required: false }
-      - { name: dietary_tags, label: Dietary tags, widget: list, required: false }
+      - name: dietary_tags
+        label: Dietary tags
+        widget: select
+        multiple: true
+        required: false
+        hint: Only select a tag after confirming the recipe and preparation process. Tags are shown to guests as dietary guidance, not allergen guarantees.
+        options:
+          - { label: Diet-friendly, value: diet }
+          - { label: Vegetarian, value: vegetarian }
+          - { label: Vegan, value: vegan }
+          - { label: Gluten-free, value: gluten-free }
+          - { label: Lactose-free, value: lactose-free }
+          - { label: Halal, value: halal }
       - { name: featured, label: Featured, widget: boolean, default: false }
       - { name: order, label: Order, widget: number, value_type: int, min: 0 }
       - { name: body, label: Content, widget: markdown, required: false }

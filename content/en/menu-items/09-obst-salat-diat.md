@@ -5,7 +5,7 @@ category: "obstsalate"
 price: 8
 description: "Mixed fruit."
 image: "/uploads/alshami/26b86b36-69a5-43da-b23d-4c03f6ed727e.jpeg"
-dietary_tags: []
+dietary_tags: [diet]
 featured: false
 order: 9
 ---
