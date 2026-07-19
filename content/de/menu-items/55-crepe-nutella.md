@@ -4,7 +4,7 @@ slug: "crepe-nutella"
 category: "crepes"
 price: 7
 description: "Crêpe mit Nutella."
-image: "/uploads/alshami/c812fd20-8d30-49de-a067-0940235cf11f.jpeg"
+image: "/uploads/alshami/wolt/wolt-crepe-nutella.jpg"
 dietary_tags: []
 featured: false
 order: 55

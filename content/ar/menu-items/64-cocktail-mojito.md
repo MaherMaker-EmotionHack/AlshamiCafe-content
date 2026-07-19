@@ -4,7 +4,7 @@ slug: "cocktail-mojito"
 category: "sommer-cocktails"
 price: 8
 description: "نعناع، ليمون أخضر، سفن أب وسكر بني."
-image: "/uploads/alshami/54afa9bb-15f7-4036-bd74-3476e1cc6c34.jpeg"
+image: "/uploads/alshami/wolt/wolt-cocktail-mojito.jpg"
 dietary_tags: []
 featured: false
 order: 64

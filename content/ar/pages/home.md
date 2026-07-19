@@ -2,7 +2,7 @@
 title: "مقهى الشامي"
 hero_headline: "فواكه طازجة ولحظات حلوة"
 hero_subtitle: "سلطات فواكه، وافل، كريب، آيس كريم وكوكتيلات في هايلبرون."
-hero_image: "/uploads/alshami/26b86b36-69a5-43da-b23d-4c03f6ed727e.jpeg"
+hero_image: "/uploads/alshami/wolt/wolt-cover-alshami-cafe.jpg"
 seo:
   meta_title: "مقهى الشامي هايلبرون | فواكه وكريب وكوكتيلات"
   meta_description: "مقهى الشامي في هايلبرون: سلطات فواكه طازجة، كريب، وافل، آيس كريم وكوكتيلات."
